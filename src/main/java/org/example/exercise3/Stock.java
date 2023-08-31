@@ -3,10 +3,10 @@ package org.example.exercise3;
 public interface Stock {
 
 
-    String push(String string) throws FullStackException;
+    int push(String string) throws FullStackException, org.example.stack.FullStackException;
 
-    String pop() throws FullStackException;
-    String peek() throws FullStackException;
+    int pop() throws FullStackException, org.example.stack.FullStackException;
+    int peek() throws FullStackException, org.example.stack.FullStackException;
     boolean isEmpty();
 
     boolean isEmpty(String[] array);

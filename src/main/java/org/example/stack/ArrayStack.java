@@ -1,11 +1,13 @@
-package org.example.exercise3;
+package org.example.stack;
 
 
-public abstract   class ArrayStack implements Stock  {
+import org.example.exercise3.Stock;
+
+public abstract   class ArrayStack implements Stock {
 
 
     int buffor = 100;
-    String[] stack = new String[buffor];
+    int[] stack = new int[buffor];
     private int top = stack.length-1;
 
 
@@ -17,16 +19,16 @@ public abstract   class ArrayStack implements Stock  {
             throw new FullStackException("Stack is full");
         }
         top++;
-        stack[top] = string;
-        return ("Added to list: "+string);}
+        stack[top] = Integer.parseInt(string);
+        return Integer.parseInt(("Added to list: "+string));}
 
     @Override
     public int pop() throws FullStackException {
         if (isEmpty()) {
             throw new FullStackException("Stack is empty");
         }
-        String item = stack[top];
-        stack[top] = null;
+        int item = stack[top];
+        stack[top] = Integer.parseInt(null);
         top--;
         return item;
     }
@@ -48,7 +50,7 @@ public abstract   class ArrayStack implements Stock  {
             }
         }
         return true;
-    }
+    }}
 
 
 

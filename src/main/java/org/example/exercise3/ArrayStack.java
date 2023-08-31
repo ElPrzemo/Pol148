@@ -1,12 +1,15 @@
 package org.example.exercise3;
 
 
-public abstract class ArrayStack implements Stock  {
+public abstract   class ArrayStack implements Stock  {
 
 
     int buffor = 100;
     String[] stack = new String[buffor];
     private int top = stack.length-1;
+
+
+
 
     @Override
     public String push(String string) throws FullStackException {
@@ -37,14 +40,27 @@ public abstract class ArrayStack implements Stock  {
     }
 
 
-
-    public boolean isEmpty(String[] array ) {
+    @Override
+    public boolean isEmpty(String[] array) {
         for (String value : array) {
             if (value != null) {
                 return false;
             }
         }
         return true;
+    }
+
+
+
+
+
+//    public boolean isEmpty(String[] array ) {
+//        for (String value : array) {
+//            if (value != null) {
+//                return false;
+//            }
+//        }
+//        return true;
 
     }
-}
+

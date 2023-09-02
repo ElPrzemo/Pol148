@@ -1,38 +1,40 @@
-package org.example.stack;
+package org.example.generic_stack;
 
 
-
-
-public  class ArrayStack implements Stock {
+public  class GenericStack<T> {
 
 
     int buffor = 100;
-    int[] stack = new int[buffor];
+    T[] stack = (T[]) new Object[buffor];
     private int top = -1;
 
 
-    @Override
-    public int push(Integer integer) throws FullStackException {
+
+    public T push(T t) throws FullStackException {
         if (top >= buffor - 1) {
             throw new FullStackException("Stack is full");
         }
         top++;
-        stack[top] = top;
-        return Integer.parseInt(("Added to list: "+integer));}
+        stack[top] = t;
 
-    @Override
-    public int pop() throws FullStackException {
+        return (T) ("Added to stock: " + t);
+    }
+
+
+    public T pop() throws FullStackException {
         if (isEmpty()) {
             throw new FullStackException("Stack is empty");
         }
-        int item = stack[top];
-        stack[top] = Integer.parseInt(null);
+        T item = stack[top];
+        stack[top] = null;
         top--;
         return item;
     }
 
-    @Override
-    public int peek() throws FullStackException {
+
+
+
+    public T peek() throws FullStackException {
         if (isEmpty()) {
             throw new FullStackException("Stack is empty");
         }
@@ -40,7 +42,7 @@ public  class ArrayStack implements Stock {
     }
 
 
-    @Override
+
     public boolean isEmpty() {
         return top == -1;
     }

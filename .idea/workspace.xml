@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff8c41d1-01d0-41a5-abff-b7ee4e8b3008" name="Changes" comment="Added Stack for Integers">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generic_stack/FullStackException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generic_stack/GenericStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generic_stack/GenericStackInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generic_stack/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exercise3/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exercise3/ArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exercise3/FullStackException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exercise3/FullStackException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exercise3/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exercise3/Stock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stack/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/ArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stack/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/Stock.java" afterDir="false" />
+    <list default="true" id="ff8c41d1-01d0-41a5-abff-b7ee4e8b3008" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tuple_class/Tuple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +139,7 @@
       <workItem from="1693292448913" duration="14298000" />
       <workItem from="1693465827531" duration="15220000" />
       <workItem from="1693631296938" duration="950000" />
-      <workItem from="1693632264614" duration="4199000" />
+      <workItem from="1693632264614" duration="4518000" />
     </task>
     <task id="LOCAL-00001" summary="Test Commit">
       <created>1693123929013</created>
@@ -192,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693488533191</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added Generic Stack">
+      <created>1693640285727</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693640285727</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +203,7 @@
     <MESSAGE value="Added next exercise, array with interface" />
     <MESSAGE value="Self Made Homeworsk" />
     <MESSAGE value="Added Stack for Integers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Stack for Integers" />
+    <MESSAGE value="Added Generic Stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Generic Stack" />
   </component>
 </project>

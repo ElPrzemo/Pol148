@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff8c41d1-01d0-41a5-abff-b7ee4e8b3008" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Generic_Array/GenericArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/generic_stack/GenericStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/generic_stack/GenericStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +140,7 @@
       <workItem from="1693292448913" duration="14298000" />
       <workItem from="1693465827531" duration="15220000" />
       <workItem from="1693631296938" duration="950000" />
-      <workItem from="1693632264614" duration="5768000" />
+      <workItem from="1693632264614" duration="6953000" />
     </task>
     <task id="LOCAL-00001" summary="Test Commit">
       <created>1693123929013</created>
@@ -198,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693640814405</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added getArray (generic version)">
+      <created>1693642166655</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1693642166655</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,14 +220,15 @@
     <MESSAGE value="Added Stack for Integers" />
     <MESSAGE value="Added Generic Stack" />
     <MESSAGE value="Added Tuple Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Tuple Class" />
+    <MESSAGE value="Added getArray (generic version)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added getArray (generic version)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Generic_Array/GenericArray.java</url>
-          <line>11</line>
+          <line>9</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

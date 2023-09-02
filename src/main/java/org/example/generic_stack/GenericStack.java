@@ -10,14 +10,14 @@ public  class GenericStack<T> {
 
 
 
-    public T push(T t) throws FullStackException {
+    public void push(T t) throws FullStackException {
         if (top >= buffor - 1) {
             throw new FullStackException("Stack is full");
         }
         top++;
         stack[top] = t;
 
-        return (T) ("Added to stock: " + t);
+        System.out.println("Added to stock: " + t);
     }
 
 
@@ -40,7 +40,6 @@ public  class GenericStack<T> {
         }
         return stack[top];
     }
-
 
 
     public boolean isEmpty() {

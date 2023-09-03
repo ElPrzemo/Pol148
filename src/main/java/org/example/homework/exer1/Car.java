@@ -1,23 +1,26 @@
-package org.example.homework;
+package org.example.homework.exer1;
 
 public class Car {
-    private int topSpeed;
-    private int numWheels;
+    public int topSpeed;
+    public int numWheels;
 
-    private int yearOfProduction;
+    public int yearOfProduction;
 
     private GearBox gearBox;
 
     public Car() {
     }
 
-    @SuperMethod(value = true)
+
     public Car(int speed, int numWheels, int yearOfProduction, GearBox gearBox) {
         this.topSpeed = speed;
         this.numWheels = numWheels;
         this.yearOfProduction = yearOfProduction;
         this.gearBox = gearBox;
     }
+
+
+    @SuperMethod(run = true)
     public double calculateAverageSpeed(double distance, double time) {
         if (time <= 0) {
             throw new IllegalArgumentException("Czas musi być większy od zera.");

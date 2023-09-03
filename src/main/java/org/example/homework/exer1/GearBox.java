@@ -1,4 +1,4 @@
-package org.example.homework;
+package org.example.homework.exer1;
 
 public class GearBox {
     private String producer;

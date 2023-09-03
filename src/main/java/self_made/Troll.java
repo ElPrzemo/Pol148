@@ -23,6 +23,6 @@ public class Troll {
         }
 
         return withoutVowels.toString();
-    }
+    }}
 
 

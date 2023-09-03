@@ -1,13 +1,14 @@
 package org.example.tuple_class;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
-import java.util.Comparator;
-
-
-public class Tuple<V> implements Comparator<V> {
+public class Tuple<V extends Comparable<V>> {
 
     private V left;
     private V right;
+
 
     public Tuple(V left, V right) {
         this.left = left;
@@ -23,30 +24,21 @@ public class Tuple<V> implements Comparator<V> {
     }
 
 
-    @Override
-    public int compare(V o1, V o2) {
-        return Integer.compare((Integer) o1, (Integer) o2);
 
+
+    public V getMax(){
+        List<V> list = new ArrayList();
+        list.add(getLeft());
+        list.add(getRight());
+        V max =  (Collections.max(list));
+        return max;
     }
 
-    public V getMax(V o1, V o2) {
-        int result = compare(o1, o2);
-        if (result >= 0) {
-            return o1;
-        } else {
-            return o2;
-        }
+    public V getMin(){
+        List<V> list = new ArrayList();
+        list.add(getLeft());
+        list.add(getRight());
+        V min =  (Collections.min(list));
+        return min;
     }
-
-
-    public V getMin(V o1, V o2) {
-        int result = compare(o1, o2);
-        if (result <= 0) {
-            return o1;
-        } else {
-            return o2;
-        }
-    }
-
-
 }

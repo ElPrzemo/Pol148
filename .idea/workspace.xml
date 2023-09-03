@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff8c41d1-01d0-41a5-abff-b7ee4e8b3008" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generic_stack/GenericStackWithInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homework/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homework/GearBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homework/SuperMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tuple_class/TupleComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stack/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/ArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stack/FullStackException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/FullStackException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stack/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/generic_stack/GenericStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/generic_stack/GenericStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tuple_class/Tuple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tuple_class/Tuple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/self_made/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/self_made/Troll.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,28 +45,35 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/przem/IdeaProjects/SDA/codewars/Pol148/src/main/java/org/example/generic_stack",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/przem/IdeaProjects/SDA/codewars/Pol148/src/main/java/org/example/generic_stack&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.homework" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\przem\IdeaProjects\SDA\codewars\Pol148\src\main\java\org\example\generic_stack" />
       <recent name="C:\Users\przem\IdeaProjects\SDA\codewars\Pol148\src\main\java\org\example\stack" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\przem\IdeaProjects\SDA\codewars\Pol148\src\main\java" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.example.tuple_class" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="self_made.exer11" />
@@ -145,7 +153,9 @@
       <workItem from="1693292448913" duration="14298000" />
       <workItem from="1693465827531" duration="15220000" />
       <workItem from="1693631296938" duration="950000" />
-      <workItem from="1693632264614" duration="11780000" />
+      <workItem from="1693632264614" duration="16592000" />
+      <workItem from="1693724312175" duration="2655000" />
+      <workItem from="1693729604296" duration="2458000" />
     </task>
     <task id="LOCAL-00001" summary="Test Commit">
       <created>1693123929013</created>
@@ -217,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693643196078</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Tuple with getMax and getMin">
+      <created>1693651467774</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1693651467774</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +251,8 @@
     <MESSAGE value="Added Tuple Class" />
     <MESSAGE value="Added getArray (generic version)" />
     <MESSAGE value="Repaired Push in ArrayStack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Repaired Push in ArrayStack" />
+    <MESSAGE value="Tuple with getMax and getMin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tuple with getMax and getMin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -246,5 +264,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
